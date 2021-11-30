@@ -1,0 +1,53 @@
+<resources>
+    //Home texts
+    <string name="app_name">IngeApp</string>
+    <string name="nameApp_text">INGEAPP</string>
+    <string name="firstButton_text">FORMULARIO</string>
+    <string name="secondButton_text">CONVERSOR</string>
+    <string name="thirdButton_text">CONTROLES BLUETOOTH</string>
+    //Form Texts
+    <string name="tittle_1_text">FORMULARIO</string>
+    <string name="topic_1_text">FISICA</string>
+    <string name="topic_2_text">MATEMATICAS</string>
+    <string name="topic_3_text">CALCULO</string>
+    <string name="topic_4_text">PROGRAMACION C++</string>
+    <string name="topic_5_text">PROGRAMACION PYTHON</string>
+    //Bluetooth Controls
+    <string name="tittle_2_text">CONTROLES BLUETOOTH</string>
+    <string name="button_1_text">BOTON A-ON</string>
+    <string name="button_2_text">BOTON B-OFF</string>
+    <string name="info_button_text">info</string>
+
+    //Converter
+    <string name="tittle_3_text">CONVERSOR</string>
+    <string name="scale_1_text">VELOCIDAD</string>
+    <string name="scale_2_text">LONGITUD</string>
+    <string name="scale_3_text">MASA</string>
+    <string name="scale_4_text">TIEMPO</string>
+    <string name="scale_5_text">GRADOS</string>
+
+    //Menu Converter
+    <string name="converter_1_text">CONVERTIR DE:</string>
+    <string name="converter_2_text">A:</string>
+    <string name="converter_3_text">RESULTADO:</string>
+    <string name="converter_4_text">CONVERTIR:</string>
+
+    //Form Physics
+    <string name="physics_1_text">M.R.U.</string>
+    <string name="physics_2_text">M.R.U.A.</string>
+    <string name="physics_3_text">CAIDA LIBRE</string>
+    <string name="physics_4_text">DINAMICA</string>
+    <string name="physics_5_text">CHOQUES</string>
+
+    //Information BC
+    <string name="Information_1_text">FLECHA ARRIBA - B1</string>
+    <string name="Information_2_text">FLECHA ABAJO - B2</string>
+    <string name="Information_3_text">FLECHA IZQUIERDA - B3</string>
+    <string name="Information_4_text">FLECHA DERECHA - B4</string>
+    <string name="Information_5_text">BOTON DEL CENTRO - ENTER</string>
+    <string name="Information_6_text">BOTON DE ENCENDIDO </string>
+    <string name="Information_7_text">BOTON DE APAGADO</string>
+
+    <string name="channel_name">CHANNEL_ID_APP</string>
+    <string name="channel_description">DESCRIPCION_CHANNEL_ID</string>
+</resources>
