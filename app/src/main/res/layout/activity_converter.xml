@@ -7,78 +7,6 @@
     tools:context=".CONVERTER">
 
     <TextView
-        android:id="@+id/time_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/scale_4_text"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mass_button" />
-
-    <TextView
-        android:id="@+id/degrees_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="203dp"
-        android:text="@string/scale_5_text"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/time_button" />
-
-    <TextView
-        android:id="@+id/mass_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/scale_3_text"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/longitude_button" />
-
-    <TextView
-        android:id="@+id/longitude_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/scale_2_text"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/velocity_button" />
-
-    <TextView
-        android:id="@+id/velocity_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/scale_1_text"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -97,8 +25,58 @@
         android:id="@+id/converterImagen"
         android:layout_width="75dp"
         android:layout_height="70dp"
-        app:layout_constraintBottom_toTopOf="@+id/velocity_button"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/longitude_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/scale_2_text"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/velocity_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/scale_1_text"
+        app:layout_constraintEnd_toEndOf="@+id/longitude_button"
+        app:layout_constraintStart_toStartOf="@+id/longitude_button"
+        app:layout_constraintTop_toBottomOf="@+id/longitude_button" />
+
+    <Button
+        android:id="@+id/mass_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/scale_3_text"
+        app:layout_constraintEnd_toEndOf="@+id/degrees_button"
+        app:layout_constraintStart_toStartOf="@+id/degrees_button"
+        app:layout_constraintTop_toBottomOf="@+id/degrees_button" />
+
+    <Button
+        android:id="@+id/time_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/scale_4_text"
+        app:layout_constraintEnd_toEndOf="@+id/mass_button"
+        app:layout_constraintStart_toStartOf="@+id/mass_button"
+        app:layout_constraintTop_toBottomOf="@+id/mass_button" />
+
+    <Button
+        android:id="@+id/degrees_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/scale_5_text"
+        app:layout_constraintEnd_toEndOf="@+id/velocity_button"
+        app:layout_constraintStart_toStartOf="@+id/velocity_button"
+        app:layout_constraintTop_toBottomOf="@+id/velocity_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

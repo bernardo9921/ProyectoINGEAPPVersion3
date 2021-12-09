@@ -31,6 +31,12 @@
     <string name="converter_2_text">A:</string>
     <string name="converter_3_text">RESULTADO:</string>
     <string name="converter_4_text">CONVERTIR:</string>
+    <string name="converter_5_text">KILÓMETRO A MILLA:</string>
+    <string name="converter_6_text">Introducir valor:</string>
+    <string name="converter_7_text">LIBRA A KILOGRAMO:</string>
+    <string name="converter_8_text">FAHRENHEIT A CELSIUS:</string>
+    <string name="converter_9_text">HORAS A SEGUNDOS:</string>
+    <string name="converter_10_text">Km/h A m/s:</string>
 
     //Form Physics
     <string name="physics_1_text">M.R.U.</string>

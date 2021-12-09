@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_bluetooth_controls.*
 import kotlinx.android.synthetic.main.activity_physics_forms.*
 
-class BLUETOOTH_CONTROLS : AppCompatActivity() {
+class BLUETOOTH_CONTROLS : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

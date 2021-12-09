@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.1" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ucb.imiot.proyectoingeapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <!-- other permissions go here -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:allowBackup="true"
@@ -13,104 +13,160 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoINGEAPP">
         <activity
-            android:name=".choquesForms"
-            android:label="@string/physics_5_text"
-            android:exported="true" >
+            android:name=".degrees_converter"
+            android:exported="true"
+            android:label="@string/scale_5_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".physicsForms" /></activity>
+                android:value=".degrees_converter" />
+        </activity>
+        <activity
+            android:name=".time_converter"
+            android:exported="true"
+            android:label="@string/scale_4_text">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".time_converter" />
+        </activity>
+        <activity
+            android:name=".velocity_converter"
+            android:exported="true"
+            android:label="@string/scale_1_text">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".velocity_converter" />
+        </activity>
+        <activity
+            android:name=".mass_converter"
+            android:exported="true"
+            android:label="@string/scale_3_text">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mass_converter" />
+        </activity>
+        <activity
+            android:name=".longitude_converter"
+            android:exported="true"
+            android:label="@string/scale_2_text" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitude_converter" />
+        </activity>
+        <activity
+            android:name=".Puebitas"
+            android:exported="true" />
+        <activity
+            android:name=".choquesForms"
+            android:exported="true"
+            android:label="@string/physics_5_text">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".physicsForms" />
+        </activity>
         <activity
             android:name=".dinamicaForms"
-            android:label="@string/physics_4_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/physics_4_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".physicsForms" /></activity>
+                android:value=".physicsForms" />
+        </activity>
         <activity
             android:name=".clibreForms"
-            android:label="@string/physics_3_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/physics_3_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".physicsForms" /></activity>
+                android:value=".physicsForms" />
+        </activity>
         <activity
             android:name=".mruaForms"
-            android:label="@string/physics_2_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/physics_2_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".physicsForms" /></activity>
+                android:value=".physicsForms" />
+        </activity>
         <activity
             android:name=".mruForms"
-            android:label="@string/physics_1_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/physics_1_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".physicsForms" /></activity>
+                android:value=".physicsForms" />
+        </activity>
         <activity
             android:name=".pythonForms"
-            android:label="@string/topic_5_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/topic_5_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FORMS" /></activity>
+                android:value=".FORMS" />
+        </activity>
         <activity
             android:name=".cppForms"
-            android:label="@string/topic_4_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/topic_4_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FORMS" /></activity>
+                android:value=".FORMS" />
+        </activity>
         <activity
             android:name=".calculusForms"
-            android:label="@string/topic_3_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/topic_3_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FORMS" /></activity>
+                android:value=".FORMS" />
+        </activity>
         <activity
             android:name=".mathForms"
-            android:label="@string/topic_2_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/topic_2_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FORMS" /></activity>
+                android:value=".FORMS" />
+        </activity>
         <activity
             android:name=".InformationBluetoothControl"
-            android:label="@string/tittle_2_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/tittle_2_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".BLUETOOTH_CONTROLS" /></activity>
-
+                android:value=".BLUETOOTH_CONTROLS" />
+        </activity>
         <activity
             android:name=".physicsForms"
-            android:label="@string/topic_1_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/topic_1_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FORMS" /></activity>
+                android:value=".FORMS" />
+        </activity>
         <activity
             android:name=".BLUETOOTH_CONTROLS"
-            android:label="@string/tittle_2_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/tittle_2_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" /></activity>
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".FORMS"
-            android:label="@string/tittle_1_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/tittle_1_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" /></activity>
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".CONVERTER"
-            android:label="@string/secondButton_text"
-            android:exported="true" >
+            android:exported="true"
+            android:label="@string/secondButton_text">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" /></activity>
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -3,9 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_bluetooth_controls.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_calculus_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_choques_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_clibre_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_conversor_longitud.xml" value="0.25025641025641027" />
         <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_converter.xml" value="0.25416666666666665" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_cpp_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_degrees_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_dinamica_forms.xml" value="0.25025641025641027" />
         <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_form.xml" value="0.25416666666666665" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_information_bluetooth_control.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_longitude_converter.xml" value="0.24010416666666667" />
         <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_mass_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_math_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_mru_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_mrua_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_physics_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_puebitas.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_python_forms.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_time_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/activity_velocity_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/degrees_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/longitude_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/mass_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/time_converter.xml" value="0.25025641025641027" />
+        <entry key="..\:/INGEAPPV3-master/app/src/main/res/layout/velocity_converter.xml" value="0.25025641025641027" />
         <entry key="..\:/IngeApp-Version-1-master/app/src/main/res/layout/activity_bluetooth_controls.xml" value="0.264" />
         <entry key="..\:/IngeApp-Version-1-master/app/src/main/res/layout/activity_converter.xml" value="0.20199275362318841" />
         <entry key="..\:/IngeApp-Version-1-master/app/src/main/res/layout/activity_form.xml" value="0.20652173913043478" />
